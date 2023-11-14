@@ -5,7 +5,7 @@ public class RemoveTheDuplicates {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,1,2,3,2,4,2,2,5,6};
+        int[] arr = {1,1,2,3,2,4,2,2,5,6,6,6};
 
 
         for (int each : arr) {
@@ -21,7 +21,7 @@ public class RemoveTheDuplicates {
             }
 
             if(count == 1){
-                System.out.println(each);
+                System.out.print(each + " ");
             }
 
 

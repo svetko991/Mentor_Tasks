@@ -5,33 +5,27 @@ public class RemoveTheDuplicates {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,1,2,3,2,4,2,2,5,6,6,6};
+        int[] arr = {1, 1, 2, 3, 2, 4, 2, 2, 5, 6, 6, 6};
 
 
         for (int each : arr) {
 
-            int count =0;
+            int count = 0;
 
             for (int each1 : arr) {
 
-                if(each1 == each){
+                if (each1 == each) {
                     count++;
                 }
 
             }
 
-            if(count == 1){
+            if (count == 1) {
                 System.out.print(each + " ");
             }
 
 
         }
-
-
-
-
-
-
 
 
     }

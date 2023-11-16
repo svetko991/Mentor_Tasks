@@ -1,14 +1,19 @@
 package week_01;
 
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class RemoveTheDuplicates {
 
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 1, 2, 3, 2, 4, 2, 2, 5, 6, 6, 6};
+        Integer[] arr = {1, 1, 2, 3, 2, 4, 2, 2, 5, 6, 6, 6};
 
 
         for (int each : arr) {
+
 
             int count = 0;
 
@@ -21,11 +26,20 @@ public class RemoveTheDuplicates {
             }
 
             if (count == 1) {
-                System.out.print(each + " ");
+                System.out.println(each + " ");
             }
 
 
         }
+
+
+
+        System.out.println("==========USING OTHER DATA STRUCTURES============");
+
+       Set<Integer> set1 = new LinkedHashSet<>();
+      set1.addAll(Arrays.asList(arr));
+
+        System.out.println(set1);
 
 
     }

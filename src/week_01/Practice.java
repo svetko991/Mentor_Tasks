@@ -5,8 +5,8 @@ public class Practice {
     public static void main(String[] args) {
 
 
-       int firstNumber = 0;
-       int secondNumber = 1;
+        int firstNumber = 0;
+        int secondNumber = 1;
 
 
         for (int i = 1; i <= 10; i++) {
@@ -15,15 +15,11 @@ public class Practice {
 
             int sum = firstNumber + secondNumber;
 
-            firstNumber=secondNumber;
+            firstNumber = secondNumber;
             secondNumber = sum;
 
 
-
-
         }
-
-
 
 
     }
